@@ -1,0 +1,5 @@
+hyperfine (1.2.0.3) xenial; urgency=medium
+
+  * Initial release
+
+ -- Jérémie Ferry <jerem.ferry@gmail.com>  Sat, 04 Aug 2018 14:47:01 -0600

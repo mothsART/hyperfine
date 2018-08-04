@@ -1,0 +1,21 @@
+Source: hyperfine
+Section: utils
+Priority: optional
+Maintainer: Jérémie Ferry <jerem.ferry@gmail.com>
+Build-Depends:
+  debhelper (>=9),
+  cargo,
+  quilt
+Standards-Version: 4.1.1
+
+Package: hyperfine
+Version: 1.2.0
+Section: utils
+Priority: optional
+Maintainer: Jérémie Ferry <jerem.ferry@gmail.com>
+Architecture: any
+Pre-Depends: dpkg (>= 1.17.14)
+Depends: ${shlib:Depends}
+Description: A command-line benchmarking tool (like time).
+
+
